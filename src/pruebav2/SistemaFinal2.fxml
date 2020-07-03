@@ -24,7 +24,7 @@
             <Font name="Book Antiqua" size="18.0" />
          </font>
       </Label>
-      <TextArea editable="false" layoutX="135.0" layoutY="341.0" prefHeight="79.0" prefWidth="593.0" text="*Finalizando tenemos nuestro vector sumado, y por ende el sistema final con la misma forma&#10;que hemos venido hablando K*T=b, luego pasariamos al paso 9 en el cual despejariamos T y resolveriamos,&#10;siendo este el paso mas trabajoso.  ">
+      <TextArea editable="false" layoutX="135.0" layoutY="341.0" prefHeight="79.0" prefWidth="593.0" text="*Finalizando tenemos nuestro vector sumado, y por ende el sistema final con la misma ecuacion de la forma&#10;que hemos venido hablando(K*T=b), luego vamos al paso 9 en el cual despejariamos T y resolveriamos,&#10;siendo este el paso mas trabajoso.  ">
          <font>
             <Font name="Book Antiqua" size="12.0" />
          </font>

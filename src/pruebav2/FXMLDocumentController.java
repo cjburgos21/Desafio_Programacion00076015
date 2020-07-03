@@ -32,26 +32,6 @@ public class FXMLDocumentController implements Initializable {
     @FXML
     private BorderPane mainPane;
     
-    @FXML
-    private void boton4(ActionEvent event){
-        FXMLloaders object = new FXMLloaders();
-        Pane view = object.getPage("Screen4");
-        mainPane.setCenter(view);
-    }
-    
-     @FXML
-    private void boton5(ActionEvent event){
-        FXMLloaders object = new FXMLloaders();
-        Pane view = object.getPage("Screen5");
-        mainPane.setCenter(view);
-    }
-    
-      @FXML
-    private void boton6(ActionEvent event){
-        FXMLloaders object = new FXMLloaders();
-        Pane view = object.getPage("Screen6");
-            mainPane.setCenter(view);
-    }
     //Pasos Iniciales 
     
       @FXML
