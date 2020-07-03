@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="477.0" prefWidth="708.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="155.0" fitWidth="673.0" layoutX="17.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagenes/SistemaFinal1.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="300.0" layoutY="14.0" text="Sistema Final" textFill="WHITE">
+         <font>
+            <Font name="Book Antiqua" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="153.0" fitWidth="673.0" layoutX="18.0" layoutY="222.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagenes/sistemafinal2.png" />
+         </image>
+      </ImageView>
+      <TextArea layoutX="61.0" layoutY="389.0" prefHeight="82.0" prefWidth="583.0" text="Finalmente habiendo generado nuestros vectores al lado derecho de la operacion, obtenemos&#10;nuestro sistema final y damos por finalizado el paso 8 del MEF, por consiguiente ahora podremos&#10;resolver la formula K T = b.">
+         <font>
+            <Font name="Book Antiqua" size="12.0" />
+         </font>
+      </TextArea>
+   </children>
+</AnchorPane>

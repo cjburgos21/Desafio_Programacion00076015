@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="950.0" styleClass="AnchorPane" stylesheets="@../diseno/disenov2.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pruebav2.FXMLDocumentController">
+   <children>
+      <BorderPane fx:id="mainPane" layoutX="11.0" layoutY="11.0" prefHeight="601.0" prefWidth="950.0" styleClass="BorderPane" stylesheets="@../diseno/disenov2.css">
+         <left>
+            <VBox prefHeight="536.0" prefWidth="131.0" styleClass="VBox" stylesheets="@../diseno/disenov2.css" BorderPane.alignment="CENTER">
+               <children>
+                  <MenuButton mnemonicParsing="false" prefHeight="25.0" prefWidth="113.0" text="Pasos Iniciales">
+                    <items>
+                      <MenuItem mnemonicParsing="false" onAction="#dominio" text="Def.Dominio" />
+                        <MenuItem mnemonicParsing="false" onAction="#condcontorno" text="Def.CondicionesContorno" />
+                      <MenuItem mnemonicParsing="false" onAction="#mallado" text="Mallado" />
+                        <MenuItem mnemonicParsing="false" onAction="#tablaconect" text="Tabla Conectividades" />
+                    </items>
+                     <VBox.margin>
+                        <Insets left="7.0" right="7.0" top="20.0" />
+                     </VBox.margin>
+                  </MenuButton>
+                  <MenuButton mnemonicParsing="false" prefHeight="25.0" prefWidth="115.0" text="MEF" textAlignment="JUSTIFY">
+                    <items>
+                      <MenuItem mnemonicParsing="false" onAction="#mef_1" text="Paso_1" />
+                      <MenuItem mnemonicParsing="false" onAction="#mef_2" text="Paso_2" />
+                        <MenuItem mnemonicParsing="false" onAction="#mef_3" text="Paso_3" />
+                        <MenuItem mnemonicParsing="false" onAction="#mef_4" text="Paso_4" />
+                        <MenuItem mnemonicParsing="false" onAction="#mef_5" text="Paso_5" />
+                        <MenuItem mnemonicParsing="false" onAction="#mef_6" text="Paso_6" />
+                    </items>
+                     <VBox.margin>
+                        <Insets left="7.0" right="7.0" top="20.0" />
+                     </VBox.margin>
+                  </MenuButton>
+                  <MenuButton mnemonicParsing="false" text="Def. Componentes ">
+                    <items>
+                      <MenuItem mnemonicParsing="false" onAction="#definiendom" text="Matriz M" />
+                      <MenuItem mnemonicParsing="false" onAction="#definiendou" text="Matriz U" />
+                        <MenuItem mnemonicParsing="false" onAction="#definiendok" text="Matriz K" />
+                        <MenuItem mnemonicParsing="false" onAction="#definiendop" text="Matriz P" />
+                        <MenuItem mnemonicParsing="false" onAction="#definiendofyg" text="f y g" />
+                    </items>
+                     <VBox.margin>
+                        <Insets left="7.0" right="7.0" top="20.0" />
+                     </VBox.margin>
+                  </MenuButton>
+                  <MenuButton mnemonicParsing="false" prefHeight="25.0" prefWidth="114.0" text="Ensamblaje">
+                    <items>
+                      <MenuItem mnemonicParsing="false" onAction="#elementos" text="Paso_7" />
+                        <MenuItem mnemonicParsing="false" onAction="#elemento12" text="Elementos 1 y 2" />
+                        <MenuItem mnemonicParsing="false" onAction="#elemento34" text="Elementos 3 y 4" />
+                        <MenuItem mnemonicParsing="false" onAction="#elemento56" text="Elementos 5 y 6" />
+                        <MenuItem mnemonicParsing="false" onAction="#sistemaglobal" text="Sistema Global" />
+                        <MenuItem mnemonicParsing="false" onAction="#mef_8" text="Paso_8" />
+                        <MenuItem mnemonicParsing="false" onAction="#sistemafinal" text="Sistema Final" />
+                    </items>
+                     <VBox.margin>
+                        <Insets left="7.0" right="7.0" top="20.0" />
+                     </VBox.margin>
+                  </MenuButton>
+                  <Button fx:id="salida" mnemonicParsing="false" onAction="#saliendo" prefHeight="25.0" prefWidth="125.0" text="Salir">
+                     <VBox.margin>
+                        <Insets left="7.0" right="7.0" top="300.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+         </left>
+         <top>
+            <AnchorPane prefHeight="80.0" prefWidth="800.0" styleClass="AnchorPane2" stylesheets="@../diseno/disenov2.css" BorderPane.alignment="CENTER">
+               <children>
+                  <Label layoutX="193.0" layoutY="22.0" text="METODO DE LOS ELEMENTOS FINITOS" textFill="WHITE">
+                     <font>
+                        <Font name="Book Antiqua Bold" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </top>
+         <center>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="342.0" layoutY="128.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Imagenes/Bienvenida.png" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="comenzando" layoutX="343.0" layoutY="320.0" mnemonicParsing="false" onAction="#comenzando" prefHeight="25.0" prefWidth="125.0" text="Comenzar" />
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

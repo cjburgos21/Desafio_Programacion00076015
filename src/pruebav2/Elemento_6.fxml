@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="489.0" prefWidth="851.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="289.0" layoutY="14.0" text="Paso 8: Aplicando condiciones de contorno" textFill="WHITE">
+         <font>
+            <Font name="Book Antiqua" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="180.0" fitWidth="831.0" layoutX="10.0" layoutY="67.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagenes/Paso71.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="171.0" fitWidth="343.0" layoutX="158.0" layoutY="277.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagenes/Paso72.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="460.0" layoutY="333.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-&gt; Aplicamos condiciones de contorno en este caso nuestras primeras 4 filas son a las que se le aplicara la condicion de Dirichlet" wrappingWidth="170.80352783203125">
+         <font>
+            <Font name="Book Antiqua" size="12.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="27.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-&gt; Al tener definidas nuestras filas que seran afectadas con la condicion de Dirichlet, sombreamos las filas y estan se van a eliminar de nuestro sistema ">
+         <font>
+            <Font name="Book Antiqua" size="12.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

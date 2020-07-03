@@ -1,0 +1,13 @@
+
+.AnchorPane{
+    -fx-background-color: #00008B;
+        -fx-border-color: #000000;
+        -fx-border-width: 7
+}
+
+.Button{
+    -fx-background-color: #778899;
+        -fx-border-width: 3
+            
+}
+

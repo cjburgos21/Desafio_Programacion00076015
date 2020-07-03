@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="580.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="353.0" layoutY="14.0" text="Definiendo Matriz M" textFill="WHITE">
+         <font>
+            <Font name="Book Antiqua" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="199.0" fitWidth="423.0" layoutX="15.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagenes/m1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="251.0" fitWidth="444.0" layoutX="14.0" layoutY="243.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagenes/m2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="194.0" fitWidth="387.0" layoutX="450.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagenes/m3.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
