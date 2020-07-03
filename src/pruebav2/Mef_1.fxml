@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
 <AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <ImageView fitHeight="287.0" fitWidth="365.0" layoutX="267.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="347.0" fitWidth="363.0" layoutX="218.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../Imagenes/Paso1.png" />
          </image>
       </ImageView>
-      <Label layoutX="316.0" layoutY="14.0" text="Paso 1: Localizacion " />
+      <Label layoutX="316.0" layoutY="14.0" text="Paso 1: Localizacion " textFill="WHITE">
+         <font>
+            <Font name="Book Antiqua" size="18.0" />
+         </font></Label>
+      <TextArea editable="false" layoutX="216.0" layoutY="403.0" prefHeight="61.0" prefWidth="363.0" text="*Comenzamos definiendo las funciones de forma, &#10;que poseen las variables de nuestro mundo isoparametrico">
+         <font>
+            <Font name="Book Antiqua" size="13.0" />
+         </font>
+      </TextArea>
    </children>
 </AnchorPane>

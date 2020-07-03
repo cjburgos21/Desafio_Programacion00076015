@@ -1,38 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
-<?import javafx.scene.text.Text?>
 
-<AnchorPane id="AnchorPane" prefHeight="489.0" prefWidth="851.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane id="AnchorPane" prefHeight="527.0" prefWidth="851.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Label layoutX="289.0" layoutY="14.0" text="Paso 8: Aplicando condiciones de contorno" textFill="WHITE">
          <font>
             <Font name="Book Antiqua" size="18.0" />
          </font>
       </Label>
-      <ImageView fitHeight="180.0" fitWidth="831.0" layoutX="10.0" layoutY="67.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../Imagenes/Paso71.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="171.0" fitWidth="343.0" layoutX="158.0" layoutY="277.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="217.0" fitWidth="309.0" layoutX="41.0" layoutY="291.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../Imagenes/Paso72.png" />
          </image>
       </ImageView>
-      <Text fill="WHITE" layoutX="460.0" layoutY="333.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-&gt; Aplicamos condiciones de contorno en este caso nuestras primeras 4 filas son a las que se le aplicara la condicion de Dirichlet" wrappingWidth="170.80352783203125">
+      <TextArea editable="false" layoutX="370.0" layoutY="265.0" prefHeight="227.0" prefWidth="459.0" text="1)Ahora sombreamos las filas y columnas correspondientes a la ubicacion de &#10;nuestras condiciones a partir de aqui sacaremos un vector final con los &#10;elementos de las columnas sombreadas que no se intersectan con las filas &#10;sombreadas.&#10;&#10;2)Teniendo definido el vector &quot;T&quot; con nuestras incognitas A y B, &#10;aplicamos Dirichlet siendo este caso en los nodos 1,2,3 y 4 de nuestra &#10;incognita A, se iguala a un vector que contiene los elementos f y g &#10;de los vectores de los sistemas locales(habiendo usado la misma&#10;logica de nuestra matriz &quot;K&quot;), ademas se genera un tercer vector que &#10;suma de lado derecho; el cual en este caso contiene las condiciones de &#10;contorno de Neumann  en los nodos 5,6,7 y 8.&#10;&#10;">
          <font>
             <Font name="Book Antiqua" size="12.0" />
          </font>
-      </Text>
-      <Text fill="WHITE" layoutX="27.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-&gt; Al tener definidas nuestras filas que seran afectadas con la condicion de Dirichlet, sombreamos las filas y estan se van a eliminar de nuestro sistema ">
-         <font>
-            <Font name="Book Antiqua" size="12.0" />
-         </font>
-      </Text>
+      </TextArea>
+      <ImageView fitHeight="164.0" fitWidth="808.0" layoutX="22.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagenes/Paso71.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>

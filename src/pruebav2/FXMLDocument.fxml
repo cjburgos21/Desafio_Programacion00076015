@@ -18,7 +18,7 @@
          <left>
             <VBox prefHeight="536.0" prefWidth="131.0" styleClass="VBox" stylesheets="@../diseno/disenov2.css" BorderPane.alignment="CENTER">
                <children>
-                  <MenuButton mnemonicParsing="false" prefHeight="25.0" prefWidth="113.0" text="Pasos Iniciales">
+                  <MenuButton mnemonicParsing="false" prefHeight="25.0" prefWidth="125.0" text="Pasos Iniciales">
                     <items>
                       <MenuItem mnemonicParsing="false" onAction="#dominio" text="Def.Dominio" />
                         <MenuItem mnemonicParsing="false" onAction="#condcontorno" text="Def.CondicionesContorno" />
@@ -29,7 +29,7 @@
                         <Insets left="7.0" right="7.0" top="20.0" />
                      </VBox.margin>
                   </MenuButton>
-                  <MenuButton mnemonicParsing="false" prefHeight="25.0" prefWidth="115.0" text="MEF" textAlignment="JUSTIFY">
+                  <MenuButton mnemonicParsing="false" prefHeight="25.0" prefWidth="124.0" text="MEF" textAlignment="JUSTIFY">
                     <items>
                       <MenuItem mnemonicParsing="false" onAction="#mef_1" text="Paso_1" />
                       <MenuItem mnemonicParsing="false" onAction="#mef_2" text="Paso_2" />
@@ -54,7 +54,7 @@
                         <Insets left="7.0" right="7.0" top="20.0" />
                      </VBox.margin>
                   </MenuButton>
-                  <MenuButton mnemonicParsing="false" prefHeight="25.0" prefWidth="114.0" text="Ensamblaje">
+                  <MenuButton mnemonicParsing="false" prefHeight="25.0" prefWidth="121.0" text="Ensamblaje">
                     <items>
                       <MenuItem mnemonicParsing="false" onAction="#elementos" text="Paso_7" />
                         <MenuItem mnemonicParsing="false" onAction="#elemento12" text="Elementos 1 y 2" />
@@ -63,11 +63,17 @@
                         <MenuItem mnemonicParsing="false" onAction="#sistemaglobal" text="Sistema Global" />
                         <MenuItem mnemonicParsing="false" onAction="#mef_8" text="Paso_8" />
                         <MenuItem mnemonicParsing="false" onAction="#sistemafinal" text="Sistema Final" />
+                        <MenuItem mnemonicParsing="false" onAction="#sistemafinal2" text="Sistema Final Parte2" />
                     </items>
                      <VBox.margin>
                         <Insets left="7.0" right="7.0" top="20.0" />
                      </VBox.margin>
                   </MenuButton>
+                  <Button layoutX="17.0" layoutY="491.0" mnemonicParsing="false" onAction="#salu" prefHeight="25.0" prefWidth="125.0" text="Finalizar">
+                     <VBox.margin>
+                        <Insets left="7.0" right="7.0" top="80.0" />
+                     </VBox.margin>
+                  </Button>
                   <Button fx:id="salida" mnemonicParsing="false" onAction="#saliendo" prefHeight="25.0" prefWidth="125.0" text="Salir">
                      <VBox.margin>
                         <Insets left="7.0" right="7.0" top="300.0" />

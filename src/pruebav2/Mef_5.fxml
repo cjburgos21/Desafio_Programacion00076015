@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -8,15 +9,20 @@
 
 <AnchorPane id="AnchorPane" prefHeight="517.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <ImageView fitHeight="401.0" fitWidth="512.0" layoutX="44.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="427.0" fitWidth="555.0" layoutX="149.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../Imagenes/Paso5.png" />
          </image>
       </ImageView>
-      <Label layoutX="190.0" layoutY="14.0" text="Paso 5: Metodo de Galerkin" textFill="WHITE">
+      <Label layoutX="316.0" layoutY="14.0" text="Paso 5: Metodo de Galerkin" textFill="WHITE">
          <font>
             <Font name="Book Antiqua" size="18.0" />
          </font>
       </Label>
+      <TextArea editable="false" layoutX="149.0" layoutY="470.0" prefHeight="67.0" prefWidth="554.0" text="*Sacamos nuestras integrales por cada uno de los elementos, para que asi se les asignen letras por cada integral,&#10;volviendo a tomar el orden de nuestras ecuaciones originales dadas. &#10;Dandole el nombre de &quot;Forma Fuerte&quot;&#10;">
+         <font>
+            <Font name="Book Antiqua" size="13.0" />
+         </font>
+      </TextArea>
    </children>
 </AnchorPane>

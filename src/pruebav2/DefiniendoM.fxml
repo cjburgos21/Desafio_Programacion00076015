@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -8,7 +9,7 @@
 
 <AnchorPane id="AnchorPane" prefHeight="580.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Label layoutX="353.0" layoutY="14.0" text="Definiendo Matriz M" textFill="WHITE">
+      <Label layoutX="318.0" layoutY="14.0" text="Definiendo Matriz M" textFill="WHITE">
          <font>
             <Font name="Book Antiqua" size="18.0" />
          </font>
@@ -28,5 +29,15 @@
             <Image url="@../Imagenes/m3.jpg" />
          </image>
       </ImageView>
+      <TextArea editable="false" layoutX="14.0" layoutY="506.0" prefHeight="49.0" prefWidth="457.0" text="*Resolvemos una sola de las integrales ya que son iguales, con el resto de &#10;las integrales del arreglo, luego sustituimos por los valores de X y Y">
+         <font>
+            <Font name="Book Antiqua" size="13.0" />
+         </font>
+      </TextArea>
+      <TextArea editable="false" layoutX="450.0" layoutY="392.0" prefHeight="87.0" prefWidth="387.0" text="*Resolvemos las integrales triples y eso nos genera nuestra matriz,&#10;a la cual le asignamos la letra griega gamma.">
+         <font>
+            <Font name="Book Antiqua" size="13.0" />
+         </font>
+      </TextArea>
    </children>
 </AnchorPane>

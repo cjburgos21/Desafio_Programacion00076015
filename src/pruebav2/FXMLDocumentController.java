@@ -5,11 +5,16 @@
  */
 package pruebav2;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.Pane;
@@ -204,6 +209,13 @@ public class FXMLDocumentController implements Initializable {
         Pane view = object.getPage("SistemaFinal");
             mainPane.setCenter(view);
     }
+    
+     @FXML
+    private void sistemafinal2(ActionEvent event){
+        FXMLloaders object = new FXMLloaders();
+        Pane view = object.getPage("SistemaFinal2");
+            mainPane.setCenter(view);
+    }
      
     @FXML private javafx.scene.control.Button salida;
     
@@ -219,7 +231,14 @@ public class FXMLDocumentController implements Initializable {
         Pane view = object.getPage("DDominio");
             mainPane.setCenter(view);
     }
-
+    
+     @FXML
+    private void salu(ActionEvent event){
+        FXMLloaders object = new FXMLloaders();
+        Pane view = object.getPage("Salu");
+        mainPane.setCenter(view);
+    }
+    
     /**
      * Initializes the controller class.
      */
@@ -228,5 +247,5 @@ public class FXMLDocumentController implements Initializable {
         // TODO
         
     }    
-    
+        
 }
