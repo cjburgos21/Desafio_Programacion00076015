@@ -6,10 +6,11 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
 <AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <ImageView fitHeight="347.0" fitWidth="363.0" layoutX="218.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="347.0" fitWidth="363.0" layoutX="218.0" layoutY="111.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../Imagenes/Paso1.png" />
          </image>
@@ -18,10 +19,19 @@
          <font>
             <Font name="Book Antiqua" size="18.0" />
          </font></Label>
-      <TextArea editable="false" layoutX="216.0" layoutY="403.0" prefHeight="61.0" prefWidth="363.0" text="*Comenzamos definiendo las funciones de forma, &#10;que poseen las variables de nuestro mundo isoparametrico">
+      <TextArea editable="false" layoutX="215.0" layoutY="466.0" prefHeight="61.0" prefWidth="363.0" text="*Comenzamos definiendo las funciones de forma, &#10;que poseen las variables de nuestro mundo isoparametrico">
          <font>
             <Font name="Book Antiqua" size="13.0" />
          </font>
       </TextArea>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="298.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagenes/eq.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="51.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*Trabajremos con las siguientes ecuaciones:">
+         <font>
+            <Font name="Book Antiqua" size="12.0" />
+         </font></Text>
    </children>
 </AnchorPane>
